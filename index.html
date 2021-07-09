@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style>
+body {
+  font-family: verdana;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+#people-list {
+  list-style-type: none;
+  padding: 0;
+}
+#people-list > li {
+  margin: 0.5rem;
+  border: solid 1px black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+li > label {
+  border: solid 1px black;
+  border-radius: 0.25rem;
+  color: white;
+  padding: 0.25rem;
+}
+
+li > ul {
+  margin: 1rem;
+}
+
+.mogul {
+  background: darkGreen;
+}
+
+.writer {
+  background: darkCyan;
+}
+
+.rapper {
+  background: tomato;
+}
+
+.entertainer {
+  background: dodgerBlue;
+}
+
+</style>
+</head>
+<body>
+  <h1>Mount Vernon</h1>
+  <h2>Hall of Fame</h2>
+  <label>by prof</label>
+  <ul id='people-list'>
+    <li>
+      <h3>JB Smoove</h3>
+      <label class='entertainer'>Entertainer</label>
+      <ul>
+        <li>
+          Wrote for SNL
+        </li>
+        <li>
+          Plays Leon on Curb
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3>Susie Essman</h3>
+      <label class='entertainer'>Entertainer</label>
+    </li>
+    <li>
+      <h3>Puff Daddy</h3>
+      <label class='writer mogul'>Mogul</label>
+    </li>
+    <li>
+      <h3>Pete Rock and CL Smooth</h3>
+      <label class='rapper'>Rapper</label>
+    </li>
+    <li>
+      <h3>EB White</h3>
+      <label class='writer'>Writer</label>
+    </li>
+  </ul>
+</body>
+</html>
